@@ -9,7 +9,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 
 function Navbar() {
   return (
-    <div className="flex flex-row  bg-slate-100 p-2 mt-0 fixed w-full justify-between z-10 top-0 items-center border border-fuchsia-600 px-5">
+    <div className="flex flex-row  bg-slate-100 p-2 mt-0 fixed w-full justify-between z-[999] top-0 items-center px-5">
       {/*  */}
       <div className="flex items-end justify-center ">
         <h1 class="text-2xl font-extrabold text-4xl">t</h1>
@@ -17,7 +17,7 @@ function Navbar() {
       </div>
       {/*  */}
       <div className="flex flex-row items-center justify-center space-x-9">
-        <p class="font-bold text-lg text-slate-500 hover:text-black ease-out duration-300">
+        <p class="font-bold text-lg text-slate-500 hover:underline text-black ease-out duration-300">
           Start
         </p>
         <p class="font-bold text-lg text-slate-500">Projects</p>
@@ -27,18 +27,18 @@ function Navbar() {
       </div>
       {/*  */}
       <div className="flex items-center justify-center space-x-4">
-        <BiSearch  size={20}/>
-        <IoApps  size={20}/>
-        <IoMdAddCircleOutline  size={20}/>
-        <AiOutlineFolder  size={20}/>
-        <GrNotification  size={20}/>
+        <BiSearch size={20} />
+        <IoApps size={20} />
+        <IoMdAddCircleOutline size={20} />
+        <AiOutlineFolder size={20} />
+        <GrNotification size={20} />
         <div className="w-10 h-10">
           <img
             src={avatar}
             className="w-full h-full rounded-full object-contain object-cover"
           />
         </div>
-        <RiArrowDropDownLine  size={24}/>
+        <RiArrowDropDownLine size={24} />
       </div>
     </div>
   );

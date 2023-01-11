@@ -5,8 +5,8 @@ import { BsGrid1X2Fill, BsLayers } from "react-icons/bs";
 import { RxLightningBolt } from "react-icons/rx";
 function Sidebar() {
   return (
-    <div className="pt-[4%] ">
-      <div className="flex flex-col  bg-slate-100 p-2 mt-0 fixed space-y-6 z-10 w-20 items-center border border-fuchsia-600 h-full">
+    <div className="pt-[3%] ">
+      <div className="flex flex-col  bg-slate-100 p-2 mt-0 fixed space-y-6 z-10 w-20 items-center  h-full pt-12">
         <GrAppsRounded  size={20}/>
         <BsLayers  size={20}/>
         <RxLightningBolt  size={20}/>

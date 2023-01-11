@@ -1,16 +1,33 @@
 import React from 'react'
+import {useState} from 'react';
 
-function Test() {
-  return (
+const time = ['08:00','09:00','10:00','14:00','15:00']
+
+function Test(props) {
+
+ const [event, setEvent] = useState(null)
+ const [info, setInfo] = useState(false)
+
+ function displayInfo(e) {
+   setInfo(true);
+   setEvent(e.target.innerText);
+}
+
+return (
+ 
+ <div className="times">
+   {time.map(times => {
+    return (
     <div>
-           <div className="  border border-spacing-9 rounded-full  w-56 h-3">
-              <div className={`bg-gray-100  w-full h-full`}>
-                <div className="rounded-full bg-[#f5af9ee0] h-full w-[30%]"></div>
-              </div>
-            </div>
-            bg-blue-600 shadow-md  z-50 w-full px-5 py-2 flex justify-between items-center
+      <button onClick={(e)=> displayInfo(e)}> {times} </button>
     </div>
+        )
+     })}
+    <div>
+      {info ? `Your appointment is set to ${event} ${props.date.toDateString()}` : null}
+    </div>
+ </div>
   )
 }
 
-export default Test
+export default Test;
