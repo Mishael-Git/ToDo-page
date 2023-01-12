@@ -7,12 +7,12 @@ function Sidebar() {
   return (
     <div className="pt-[3%] ">
       <div className="flex flex-col  bg-white p-2 mt-0 fixed space-y-6 z-10 w-20 items-center  h-full pt-12">
-        <GrAppsRounded size={20} />
-        <BsLayers size={20} />
-        <RxLightningBolt size={20} />
-        <BsGrid1X2Fill size={20} />
-        <AiOutlineMail size={20} />
-        <AiOutlineCalendar size={20} />
+        <GrAppsRounded size={20} className="cursor-pointer" />
+        <BsLayers size={20} className="cursor-pointer" />
+        <RxLightningBolt size={20} className="cursor-pointer" />
+        <BsGrid1X2Fill size={20} className="cursor-pointer" />
+        <AiOutlineMail size={20} className="cursor-pointer" />
+        <AiOutlineCalendar size={20} className="cursor-pointer" />
       </div>
     </div>
   );

@@ -8,8 +8,8 @@ function Top1() {
       <h1 class="text-3xl font-extrabold">My work</h1>
       <div className="flex flex-row items-center space-x-3 ">
         <div className="flex  items-center justify-center h-7 w-28  bg-[#2a3385] rounded-lg tracking-widest">
-          <span class="">Add task</span>
-          <IoIosArrowDown size={20} className=" border-l-2" />
+          <span class="cursor-pointer">Add task</span>
+          <IoIosArrowDown size={20} className="cursor-pointer hover:text-slate-500 ease-in duration-300 border-l-2" />
         </div>
         <div className="border rounded-sm">
           <AiOutlineSetting size={20} />
