@@ -26,7 +26,7 @@ function Search() {
             <GoListOrdered />
             <p>Priority</p>
           </div>
-          <div className="rounded-lg bg-slate-100">
+          <div className="rounded-lg bg-slate-100 hover:text-slate-500  cursor-pointer">
             <TfiMoreAlt />
           </div>
         </div>

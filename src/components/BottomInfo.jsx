@@ -23,7 +23,7 @@ function BottomInfo() {
             <IoMdAlarm size={20} />
             <p>Reminder</p>
           </div>
-          <div className="rounded-lg bg-slate-100">
+          <div className="rounded-lg bg-slate-100 hover:text-slate-500  cursor-pointer">
             <TfiMoreAlt />
           </div>
         </div>
@@ -41,7 +41,7 @@ function BottomInfo() {
             Show less
           </button>
         </div>
-        <div className="rounded-lg bg-slate-100">
+        <div className="rounded-lg bg-slate-100m hover:text-slate-500  cursor-pointer">
           <TfiMoreAlt />
         </div>
       </div>
@@ -112,7 +112,7 @@ function BottomInfo() {
             Show more
           </button>
         </div>
-        <div className="rounded-lg bg-slate-100">
+        <div className="rounded-lg bg-slate-100 hover:text-slate-500  cursor-pointer">
           <TfiMoreAlt />
         </div>
       </div>
