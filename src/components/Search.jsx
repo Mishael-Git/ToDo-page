@@ -9,7 +9,7 @@ import { BiMessageRounded } from "react-icons/bi";
 import { round1 } from "../assets/images/images";
 function Search() {
   return (
-    <div className="bg-slate-50 rounded-lg tracking-wider ">
+    <div className="bg-white rounded-lg tracking-wider ">
       <BsCircle />
       <div className="flex flex-row justify-between items-center space-x-64  z-50 w-full px-5 py-2  ">
         <div className="flex flex-col  ">

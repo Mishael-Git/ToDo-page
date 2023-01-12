@@ -7,7 +7,7 @@ import { TfiMoreAlt } from "react-icons/tfi";
 import { round1, round2, round3 } from "../assets/images/images";
 function BottomInfo() {
   return (
-    <div className="bg-slate-50 rounded-lg tracking-wider ">
+    <div className="bg-white rounded-lg tracking-wider ">
       <div className="flex flex-row justify-between items-center space-x-64  z-50 w-full px-5 py-2">
         <div className="flex flex-row items-center justify-center space-x-3">
           <BsCircle />
@@ -51,45 +51,45 @@ function BottomInfo() {
       {/* images */}
       <div className="flex flex-row space-x-2 p-2 z-10 px-5 justify-between ">
         <div className="flex items-center justify-center ">
-        <div className=" p-4 flex flex-row-reverse items-center flex-wrap-reverse -space-x-1 space-x-reverse">
-          {Array(1)
-            .fill(0)
-            .map((i) => (
-              <div className="w-8 h-8" key={i}>
-                <img
-                  src={round1}
-                  className="w-full h-full object-cover rounded-full"
-                />
-              </div>
-            ))}
+          <div className=" p-4 flex flex-row-reverse items-center flex-wrap-reverse -space-x-1 space-x-reverse">
+            {Array(1)
+              .fill(0)
+              .map((i) => (
+                <div className="w-8 h-8" key={i}>
+                  <img
+                    src={round1}
+                    className="w-full h-full object-cover rounded-full"
+                  />
+                </div>
+              ))}
 
-          {Array(1)
-            .fill(0)
-            .map((i) => (
-              <div className="w-8 h-8" key={i}>
-                <img
-                  src={round2}
-                  className="w-full h-full object-cover rounded-full"
-                />
-              </div>
-            ))}
+            {Array(1)
+              .fill(0)
+              .map((i) => (
+                <div className="w-8 h-8" key={i}>
+                  <img
+                    src={round2}
+                    className="w-full h-full object-cover rounded-full"
+                  />
+                </div>
+              ))}
 
-          {Array(1)
-            .fill(0)
-            .map((i) => (
-              <div className="w-8 h-8" key={i}>
-                <img
-                  src={round3}
-                  className="w-full h-full object-cover rounded-full"
-                />
-              </div>
-            ))}
-        </div>
-        {/*  */}
-        <div className="flex items-center">
-        <IoMdAlarm size={20} />
-        <p>05:12:48</p>
-        </div>
+            {Array(1)
+              .fill(0)
+              .map((i) => (
+                <div className="w-8 h-8" key={i}>
+                  <img
+                    src={round3}
+                    className="w-full h-full object-cover rounded-full"
+                  />
+                </div>
+              ))}
+          </div>
+          {/*  */}
+          <div className="flex items-center">
+            <IoMdAlarm size={20} />
+            <p>05:12:48</p>
+          </div>
         </div>
         <div className="flex flex-row items-center justify-center space-x-3 ">
           <div className="rounded-full border-spacing-2 border w-32 h-3 ">
@@ -119,26 +119,26 @@ function BottomInfo() {
       {/*  */}
       <div className="flex flex-row items-center justify-between px-5 py-2">
         <div className="flex flex-row items-center ">
-        {Array(1)
+          {Array(1)
             .fill(0)
             .map((i) => (
               <div className="w-8 h-8" key={i}>
-            <img
-              src={round2}
-              className="w-full h-full object-contain object-cover rounded-full"
-            />
-          </div>
+                <img
+                  src={round2}
+                  className="w-full h-full object-contain object-cover rounded-full"
+                />
+              </div>
             ))}
-     
-     {Array(1)
+
+          {Array(1)
             .fill(0)
             .map((i) => (
               <div className="w-8 h-8" key={i}>
-            <img
-              src={round3}
-              className="w-full h-full object-contain object-cover rounded-full"
-            />
-          </div>
+                <img
+                  src={round3}
+                  className="w-full h-full object-contain object-cover rounded-full"
+                />
+              </div>
             ))}
           <IoMdAlarm size={20} />
           <p>00:00:00</p>

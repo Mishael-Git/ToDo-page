@@ -9,7 +9,7 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 
 function Navbar() {
   return (
-    <div className="flex flex-row  bg-slate-100 p-2 mt-0 fixed w-full justify-between z-[999] top-0 items-center px-5">
+    <div className="flex flex-row  bg-white p-2 mt-0 fixed w-full justify-between z-[999] top-0 items-center px-5">
       {/*  */}
       <div className="flex items-end justify-center ">
         <h1 class="text-2xl font-extrabold text-4xl">t</h1>
