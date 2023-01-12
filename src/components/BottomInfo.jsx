@@ -104,7 +104,7 @@ function BottomInfo() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-between items-center space-x-64  z-50 w-full px-5 py-2">
+      <div className="flex flex-row justify-between items-center space-x-64  border-t-2  z-50 w-full px-5 py-2">
         <div className="flex flex-row items-center justify-center space-x-3">
           <BsCircle />
           <h6>Create Styleguide</h6>

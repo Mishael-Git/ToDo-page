@@ -4,7 +4,7 @@ import { IoMdAdd } from "react-icons/io";
 
 function UiInfo() {
   return (
-    <div className="    z-50 w-full px-5 py-2 flex justify-between items-center ">
+    <div className="w-[78%] justify-between  z-50  px-5 py-2 flex  items-center ">
       <h1 class="font-bold text-lg">User Interface Projects</h1>
       {/* Images */}
       <div className="flex flex-row">

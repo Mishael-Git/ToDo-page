@@ -8,7 +8,7 @@ function Meeting() {
   return (
     <div>
       <h1 className="text-2xl font-bold">Meetings</h1>
-      <div className="space-y-4 bg-white rounded-lg  w-[110%] px-5 py-5">
+      <div className="space-y-4 bg-white rounded-lg  w-[110%] px-5 py-5 ">
         <div className="calendar-container">
           <Calendar onChange={setDate} value={date} />
         </div>

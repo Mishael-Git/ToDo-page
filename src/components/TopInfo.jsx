@@ -4,11 +4,10 @@ import { BsLock } from "react-icons/bs";
 import { IoIosArrowDown } from "react-icons/io";
 import { BsListUl } from "react-icons/bs";
 import { GoListOrdered } from "react-icons/go";
-import { Mile } from "./Info";
 function TopInfo() {
   return (
     <div>
-      <div className="space-y-10 z-50 items-center   py-2 ">
+      <div className="space-y-10 z-50 items-center py-2">
         <div className="flex flex-row items-center justify-between space-x-4 z-50 w-full px-5 py-2">
           <div className="flex flex-row items-center">
             <IoIosArrowForward />

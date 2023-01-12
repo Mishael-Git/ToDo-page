@@ -4,9 +4,9 @@ function MileStone() {
   return (
     <div>
       <h1 class="text-2xl font-bold">Milestones</h1>
-      <div className="space-y-5 bg-white rounded-lg w-[110%] px-5 py-5">
+      <div className="space-y-5 bg-white rounded-lg w-[110%] px-5 py-5 ">
         <div className="space-y-5">
-          <div>
+          <div className="border-b-2">
             <div className="flex flex-row items-center space-x-4">
               <div className="flex flex-col items-center border border-spacing-2">
                 <h1 class="text-base font-medium">SEP</h1>
@@ -29,7 +29,7 @@ function MileStone() {
 
           {/*  */}
           <div>
-            <div className="flex flex-row items-center space-x-4">
+            <div className="flex flex-row items-center space-x-4 ">
               <div className="flex flex-col items-center border border-spacing-2">
                 <h1 class="text-base font-medium">NOV</h1>
                 <h3 class="text-2xl font-extrabold">02</h3>
