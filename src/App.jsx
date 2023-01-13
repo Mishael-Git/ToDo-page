@@ -1,21 +1,16 @@
 import React from "react";
-import Body from "./components/Body";
-import Navbar from "./components/Navbar";
-import Sidebar from "./components/Sidebar";
+import { Route, Routes } from "react-router-dom";
+import Dashboard from "./components/Dashboard";
+import Login from "./components/Login";
 
 function App() {
   return (
     <div className=" bg-[#f6fafaf3]  min-h-full">
       <div>
-        <Navbar />
-      </div>
-
-      <div className="pt-1">
-        <Sidebar />
-      </div>
-
-      <div className="pt-9">
-        <Body />
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/login" element={<Login/>}/>
+        </Routes>
       </div>
     </div>
   );

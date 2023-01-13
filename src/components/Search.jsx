@@ -18,11 +18,11 @@ function Search() {
           </h4>
         </div>
         <div className="flex flex-row space-x-2 items-center justify-center">
-          <div className="flex flex-row items-center border rounded-lg bg-slate-100 space-x-2">
+          <div className="flex flex-row items-center border px-2 rounded-lg bg-slate-100 space-x-2">
             <IoMdAlarm size={20} />
             <p>Reminder</p>
           </div>
-          <div className="flex flex-row items-center border rounded-lg bg-slate-100 space-x-2">
+          <div className="flex flex-row items-center border px-2 rounded-lg bg-slate-100 space-x-2">
             <GoListOrdered />
             <p>Priority</p>
           </div>
@@ -49,9 +49,9 @@ function Search() {
           </div>
         </div>
         <div className="flex flex-row justify-between space-x-3 items-baseline">
-          <div className="flex flex-row items-center rounded-md bg-[#bbf7d0]">
+          <div className="flex flex-row items-center px-2 rounded-md bg-[#bbf7d0]">
             <p>New Client</p>
-            <MdOutlineDangerous size={20} />
+            <MdOutlineDangerous size={20} className="cursor-pointer hover:text-slate-500" />
           </div>
           <div className="flex flex-row items-baseline mt-2 space-x-3">
             <div className=" border border-spacing-9 rounded-full  w-32 h-3">

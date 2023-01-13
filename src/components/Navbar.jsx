@@ -20,10 +20,10 @@ function Navbar() {
         <p class="font-bold text-lg text-slate-500 hover:underline text-black ease-out duration-300 cursor-pointer">
           Start
         </p>
-        <p class="font-bold text-lg text-slate-500 cursor- hover:text-slate-800">Projects</p>
-        <p class="font-bold text-lg text-slate-500 cursor- hover:text-slate-800">Planning</p>
-        <p class="font-bold text-lg text-slate-500 cursor- hover:text-slate-800">Calendar</p>
-        <p class="font-bold text-lg text-slate-500 cursor- hover:text-slate-800">Team</p>
+        <p class="font-bold text-lg text-slate-500 cursor-pointer hover:text-slate-800">Projects</p>
+        <p class="font-bold text-lg text-slate-500 cursor-pointer hover:text-slate-800">Planning</p>
+        <p class="font-bold text-lg text-slate-500 cursor-pointer hover:text-slate-800">Calendar</p>
+        <p class="font-bold text-lg text-slate-500 cursor-pointer hover:text-slate-800">Team</p>
       </div>
       {/*  */}
       <div className="flex items-center justify-center space-x-4">
@@ -35,7 +35,7 @@ function Navbar() {
         <div className="w-10 h-10">
           <img
             src={avatar}
-            className="w-full h-full rounded-full object-contain object-cover"
+            className="w-full h-full cursor-pointer rounded-full object-contain object-cover"
           />
         </div>
         <RiArrowDropDownLine size={30} className="cursor-pointer hover:bg-slate-300 rounded-full" />

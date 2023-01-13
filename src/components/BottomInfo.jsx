@@ -16,10 +16,10 @@ function BottomInfo() {
           </h4>
         </div>
         <div className="flex flex-row items-center justify-center space-x-3">
-          <div className="flex  justify-center border h-7 w-28 rounded-full bg-[#d97706] tracking-widest">
+          <div className="flex  justify-center border  h-7 w-28 rounded-full bg-[#d97706] tracking-widest">
             <span>Important</span>
           </div>
-          <div className="flex flex-row items-center justify-center border rounded-lg bg-slate-100 space-x-2">
+          <div className="flex flex-row items-center justify-center border px-2 rounded-lg bg-slate-100 space-x-2">
             <IoMdAlarm size={20} />
             <p>Reminder</p>
           </div>
@@ -144,9 +144,9 @@ function BottomInfo() {
           <p>00:00:00</p>
         </div>
         <div className="flex flex-row items-center justify-center space-x-3">
-          <div className="flex flex-row items-center rounded-md bg-[#f0a8c9]">
+          <div className="flex flex-row items-center px-2 rounded-md bg-[#f0a8c9]">
             <p>StyleGuide</p>
-            <MdOutlineDangerous size={20} />
+            <MdOutlineDangerous size={20} className="cursor-pointer hover:text-slate-500" />
           </div>
           <div>
             <p>+2</p>
