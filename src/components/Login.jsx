@@ -31,7 +31,7 @@ function Login() {
             <input type="checkbox" />
             <label>Remember Me?</label>
           </div>
-          <p class="text-slate-500">Forgot Password</p>
+          <p class="text-slate-500 cursor-pointer hover:text-slate-700">Forgot Password</p>
         </div>
         <Link to="/Dashboard">
           <div className="mt-5 ">
@@ -43,13 +43,51 @@ function Login() {
             </button>
           </div>
         </Link>
-        <div className="flex  mt-5 items-center bg-[#f31111] rounded-lg hover:bg-transparent px-1">
+         
+         <p class="flex justify-center items-center">Or</p>
+         {/* Google & Facebook */}
+<div className="pt-0 ">
+<div className="flex flex-row items-center justify-between space-x-10">
+        <div className="flex  mt-5 items-center w-full bg-[#f31111] rounded-lg hover:bg-transparent px-5">
           <button
             type="submit"
             class="text-white hover:text-slate-600 text-xl font-semibold  py-1 w-full"
           >
             Google
           </button>
+        </div>
+         {/* Facebook */}
+        <div className="flex  mt-5 items-center w-full bg-[#160674da] rounded-lg hover:bg-transparent px-5">
+          <button
+            type="submit"
+            class="text-white hover:text-slate-600 text-xl font-semibold  py-1 w-full"
+          >
+          Facebook
+          </button>
+        </div>
+          </div>
+       {/* Linledin & GitHub */}
+          <div className="flex flex-row items-center justify-between space-x-10">
+        <div className="flex  mt-5 items-center w-full bg-[#336492] rounded-lg hover:bg-transparent px-5">
+          <button
+            type="submit"
+            class="text-white hover:text-slate-600 text-xl font-semibold  py-1 w-full"
+          >
+            Linkedin
+          </button>
+        </div>
+           {/* Github */}
+           
+        <div className="flex  mt-5 items-center w-full bg-[#1b1a1a] rounded-lg hover:bg-transparent px-5">
+          <button
+            type="submit"
+            class="text-white hover:text-slate-600 text-xl font-semibold  py-1 w-full"
+          >
+            GitHub
+          </button>
+        </div>
+
+        </div>
         </div>
       </div>
     </div>

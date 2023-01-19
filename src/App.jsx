@@ -10,7 +10,6 @@ function App() {
         <Routes >
           <Route path="/" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard/>}/>
-           <Route path="/" element={() => <Navigate to="/signin"  />} />
 
         </Routes>
       </div>
