@@ -31,7 +31,7 @@ function Login() {
             <input type="checkbox" />
             <label>Remember Me?</label>
           </div>
-          <p class="text-slate-500 cursor-pointer hover:text-slate-700">Forgot Password</p>
+          <p class="text-slate-500">Forgot Password</p>
         </div>
         <Link to="/Dashboard">
           <div className="mt-5 ">
@@ -46,7 +46,7 @@ function Login() {
          
          <p class="flex justify-center items-center">Or</p>
          {/* Google & Facebook */}
-<div className="pt-0 ">
+<div className="p-6 ">
 <div className="flex flex-row items-center justify-between space-x-10">
         <div className="flex  mt-5 items-center w-full bg-[#f31111] rounded-lg hover:bg-transparent px-5">
           <button
