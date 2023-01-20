@@ -1,5 +1,4 @@
 import React from "react";
-import { FcGoogle } from "react-icons/fc";
 import { CgProfile } from "react-icons/cg";
 import { FaLock } from "react-icons/fa";
 import { Link } from "react-router-dom";
