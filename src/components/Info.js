@@ -6,3 +6,4 @@ export { default as Ui } from "./UiInfo";
 export { default as Search } from "./Search";
 export { default as Mile } from "./MileStone";
 export { default as Date } from "./Meeting.jsx";
+export { default as Home } from "./Home";

@@ -4,7 +4,7 @@ import { FaLock } from "react-icons/fa";
 import { Link } from "react-router-dom";
 function Login() {
   return (
-    <div className="flex items-center justify-center h-screen  border border-fuchsia-600 ">
+    <div className="flex items-center justify-center h-screen   ">
       <div className="w-96 p-6 shadow-lg bg-white space-y-8 rounded-md">
         <p class="text-3xl block text-center font-semibold">Sign In</p>
         <div className="flex flex-col items-center justify-center space-y-2 ">
