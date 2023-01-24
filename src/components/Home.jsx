@@ -23,15 +23,15 @@ function Home() {
         <div className="w-96 p-6  space-y-8 rounded-md">
           <h1 class="text-4xl font-extrabold text-[#ff1f58]">Hey</h1>
           <p class="text-4xl font-extrabold font-mono">
-            You are welcome to todo-page{" "}
+            Make your daily plan with us{" "}
           </p>
           <div className="border border-[#ff1f58] rounded-lg">
-            <Link to="/dashboard">
+            <Link to="/signin">
               <button
                 type="submit"
                 className="rounded-lg px-5 text-4xl w-full hover:bg-transparent bg-[#ff5959] "
               >
-                DashBoard
+                Welcome
               </button>
             </Link>
           </div>
