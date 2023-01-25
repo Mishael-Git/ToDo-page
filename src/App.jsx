@@ -9,7 +9,7 @@ function App() {
     <div className=" bg-[#f6fafaf3]  min-h-full">
       <div>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/signin" element={<Login />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
