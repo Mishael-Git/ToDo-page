@@ -15,7 +15,7 @@ function Navbar() {
     <div className="flex flex-row  bg-white p-2 mt-0 fixed w-full justify-between z-[999] top-0 items-center px-5">
       {/*  */}
       <div className="flex items-end justify-center ">
-        <h1 class="text-2xl font-extrabold text-4xl">t</h1>
+        <h1 class="text-2xl font-extrabold text-4xl cursor-pointer ">ToDo</h1>
         <p class="text-red-600 font-bold text-4xl text-center">.</p>
       </div>
       {/*  */}
@@ -38,7 +38,14 @@ function Navbar() {
       </div>
       {/*  */}
       <div className="flex items-center justify-center space-x-4">
-        <BiSearch size={20} className="cursor-pointer hover:text-slate-600" />
+      <div className="flex items-center border rounded-full px-2">
+            <BiSearch size={20} />
+            <input
+              placeholder="Search"
+              type="text"
+              className=" w-full text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600"
+            />
+          </div>
         <IoApps size={20} className="cursor-pointer hover:text-slate-600" />
         <IoMdAddCircleOutline
           size={20}
@@ -67,21 +74,21 @@ function Navbar() {
                   className="w-full h-full cursor-pointer rounded-full object-contain object-cover"
                 />
               </div>
-              <h1>John Michael</h1>
+              <h1 class="text-2xl font-bold">Teriq Jones</h1>
               </div>
               <ul>
                 <li class="flex items-center justify-start space-x-3 px-4 py-1 hover:bg-gray-100 border-b">
                   <CgProfile size={30}/>
-                  <p>Edit Profile</p> </li>
+                  <p class="text-xl font-semibold">Edit Profile</p> </li>
                 <li class="flex items-center justify-start space-x-3 px-4 py-1 hover:bg-gray-100 border-b">
                   <MdSettings size={30}/>
-                 <p>Settings & Privacy</p></li>
+                 <p class="text-xl font-semibold">Settings & Privacy</p></li>
                 <li class="flex items-center justify-start space-x-3 px-4 py-1 hover:bg-gray-100 border-b">
                   <BiHelpCircle size={30}/>
-                 <p>Help</p></li>
+                 <p class="text-xl font-semibold">Help</p></li>
                 <li class="flex items-center justify-start space-x-3 px-4 py-1 hover:bg-gray-100 border-b">
                   <CgLogOut size={30}/>
-                 <Link to="signin"><p>Logout</p> </Link></li>
+                 <Link to="signin"><p class="text-xl font-semibold">Logout</p> </Link></li>
               </ul>
 
   
@@ -94,8 +101,8 @@ function Navbar() {
           />
           <div className="absolute hidden top-full group-focus:block min-w-full w-max bg-white shadow-md mt-1 rounded">
             <ul className="text-left border rounded">
-              <li class="px-4 py-1 hover:bg-gray-100 border-b">About</li>
-              <Link to="/signin"><li class="px-4 py-1 hover:bg-gray-100 border-b">Sign out</li> </Link>
+              <li class="px-4 py-1 hover:bg-gray-100 border-b"> <p class="text-xl font-semibold">About</p> </li>
+              <Link to="/signin"><li class="px-4 py-1 hover:bg-gray-100 border-b"> <p class="text-xl font-semibold">Sign out</p> </li> </Link>
             </ul>
           </div>
         </button>

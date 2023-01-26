@@ -1,17 +1,18 @@
 import React from "react";
-import { CgProfile } from "react-icons/cg";
+import { MdEmail } from "react-icons/md";
 import { FaLock } from "react-icons/fa";
 import { Link } from "react-router-dom";
-function Login() {
+import { CgOrganisation } from "react-icons/cg";
+function Signup() {
   return (
     <div className="flex flex-col items-center justify-center h-screen   ">
       <div className="w-96 p-6 shadow-lg bg-white space-y-8 rounded-md">
-        <p class="text-3xl block text-center font-semibold">Sign In</p>
+        <p class="text-3xl block text-center font-semibold">Sign Up</p>
         <div className="flex flex-col items-center justify-center space-y-2 ">
           <div className="flex items-center border rounded-md px-2 text-2xl font-semibold">
-            <CgProfile size={20} />
+            <MdEmail size={20} />
             <input
-              placeholder="Username or email"
+              placeholder="E-mail"
               type="text"
               className=" w-full h-[50px] text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600"
             />
@@ -24,29 +25,21 @@ function Login() {
               className=" w-full h-[50px] text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600 "
             />
           </div>
-        </div>
-        <div className="flex mt-3 justify-between items-center">
-          <div>
-            <input type="checkbox" />
-            <label>Remember Me?</label>
+          <div className="flex items-center border rounded-md px-2 text-2xl font-semibold ">
+            <CgOrganisation size={20} />
+            <input
+              placeholder="Institution/Organization"
+              type="text"
+              className=" w-full h-[50px] text-base px-2 py-1 focus:outline-none focus:ring-0 focus:border-gray-600 "
+            />
           </div>
-          <p class="text-slate-500">Forgot Password</p>
         </div>
+        
         <Link to="/Dashboard">
           <div className="mt-5 ">
             <button
               type="submit"
               class="border-2 border-[#37a137] rounded-lg bg-[#37a137] text-white hover:text-slate-600 hover:bg-transparent text-xl font-semibold py-1 w-full"
-            >
-              Sign in
-            </button>
-          </div>
-        </Link>
-        <Link to="/signup">
-          <div className="mt-5 ">
-            <button
-              type="submit"
-              class="border-2 border-[#e2424a] rounded-lg bg-[#e2424a] text-white hover:text-slate-600 hover:bg-transparent text-xl font-semibold py-1 w-full"
             >
               Sign up
             </button>
@@ -95,7 +88,6 @@ function Login() {
                 GitHub
               </button>
             </div>
-            
           </div>
         </div>
         <div className="flex flex-col items-center justify-center">
@@ -105,5 +97,4 @@ function Login() {
     </div>
   );
 }
-
-export default Login;
+export default Signup;
