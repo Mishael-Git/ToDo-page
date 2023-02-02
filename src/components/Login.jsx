@@ -13,7 +13,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5173/"),
+      await axios.post("http://localhost:8000/"),
         {
           email,
           password,
